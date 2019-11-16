@@ -8,6 +8,7 @@ gallery:
 author: Allen Ginsberg
 date: 2019-11-15T08:00:00Z
 hero_image: "/src/assets/content/images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
+background_color: ''
 
 ---
 testing
