@@ -3,22 +3,28 @@ label: Test Template
 hide_body: false
 display_field: title
 fields:
+- type: file
+  name: hero_image
+  label: hero_image
 - type: text
   name: title
   label: title
-- name: gallery
-  type: image_gallery
-  config: {}
-  label: Gallery
-  description: Multiple Images
 - type: text
   name: author
   label: author
 - type: datetime
   name: date
   label: date
-- type: file
-  name: hero_image
-  label: hero_image
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: gallery
+  description: Multiple Images
+- name: background_color
+  type: color
+  label: background color
+  config:
+    required: false
+    color_format: Hex
 pages:
 - src/assets/content/galleries/dream-a-little-dream.md
