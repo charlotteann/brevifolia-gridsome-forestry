@@ -16,10 +16,10 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: documents
       section: authors-list
-      file: 
-      path: 
+      file: src/assets/content/data/authors.json
+      path: authors
   label: author name
   description: from pre-defined list
 - type: datetime
