@@ -7,9 +7,9 @@ sections:
 - type: heading
   label: Content
 - type: directory
-  path: galleries
+  path: src/assets/content/galleries
   label: Galleries
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - test-template
