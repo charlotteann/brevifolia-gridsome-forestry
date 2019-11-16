@@ -11,4 +11,3 @@ hero_image: "/src/assets/content/images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jp
 background_color: ''
 
 ---
-testing
