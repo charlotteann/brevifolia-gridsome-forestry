@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: galleries
+  label: Galleries
+  create: all
+  match: "**/*"
+  templates:
+  - test-template
+- type: directory
   path: src/assets/content/blog
   label: Blog Posts
   create: documents
